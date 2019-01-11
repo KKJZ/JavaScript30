@@ -67,6 +67,14 @@ input.search {
 
 span.population {
   font-size: 15px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+span.rank {
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
 }
 
 .hl {
