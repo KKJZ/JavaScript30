@@ -101,10 +101,10 @@
     let inBetween = false;
     if (e.shiftKey && this.checked) {
       checkboxes.forEach(checkbox => {
-        if(checkbox === this || checkbox === lastChecked) {
+        if (checkbox === this || checkbox === lastChecked) {
           inBetween = !inBetween;
         }
-        if(inBetween) {
+        if (inBetween) {
           checkbox.checked = true;
         }
       })
